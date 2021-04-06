@@ -2,27 +2,27 @@
 
 import React from 'react';
 import './App.css'
-import Navbar from './component/Navbar';
+import Navbar from './components/Navbar';
 import Logo from './Logo.js';
 import { 
   BrowserRouter as Router, 
   Switch, Link,
   Route } from 'react-router-dom';
-  import SidebarData from './component/SidebarData';
+  import SidebarData from './components/SidebarData';
   
-  import Home from './component/Home';
+  import Home from './components/Home';
   // import image from '../../image';
-  import Staff from './component/Staff';
-  import Board from './component/Board';
-  import Partners from './component/Partners';
-  import Policy from './component/Policy';
-  import Trainings from './component/Trainings';
-  import Contact from './component/Contact';
-  import Donate from './component/Donate';
+  import Staff from './components/Staff';
+  import Board from './components/Board';
+  import Partners from './components/Partners';
+  import Policy from './components/Policy';
+  import Trainings from './components/Trainings';
+  import Contact from './components/Contact';
+  import Donate from './components/Donate';
   // import WhoWeAre from './components/WhoWeAre';
-  import Circle from './component/Circle';
+  import Circle from './components/Circle';
   // import Square from './components/Square';
-  import Footer from './component/Footer';
+  import Footer from './components/Footer';
 
 
 
@@ -38,7 +38,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' component={Home} />
+          <Route path='/' exact component={Home} />
           <Route path='/staff' component={Staff} />
           <Route path='/board' component={Board} />
           <Route path='/partners' component={Partners} />
