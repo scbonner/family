@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Trainings() {
-    return (
-        <div>
-         Pending  
-        </div>
-    )
-}
+// function Trainings() {
+//     return (
+//         <div>
+//          Pending  
+//         </div>
+//     )
+// }
 
-export default Trainings;
+// export default Trainings;

@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Partners() {
-    return (
-        <div>
-            Hello
-        </div>
-    )
-}
+// function Partners() {
+//     return (
+//         <div>
+//             Hello
+//         </div>
+//     )
+// }
 
-export default Partners
+// export default Partners

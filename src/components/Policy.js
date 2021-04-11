@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Policy() {
-    return (
-        <div>
-            Advocacy
-        </div>
-    )
-}
+// function Policy() {
+//     return (
+//         <div>
+//             Advocacy
+//         </div>
+//     )
+// }
 
-export default Policy
+// export default Policy
