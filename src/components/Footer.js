@@ -4,20 +4,21 @@ import './Navbar.css'
 function Footer() {
   return (
     <div>
-      <footer id="footer">
-        <div className="row">
-          <div className="col-md-6">
-            <p>Copyright &copy; 2021 Peacock Blu</p>
+       <footer id="footer">
+          <div id="address">
+            <p>Justice4Families (J4F)</p>
+            <p>2090 Honeywell Ave</p>
+            <p>Bronx, New York 10460</p>
+          </div>
+    
+      <div className="row">
+        <div className="col-md-6">
+          <p>Copyright &copy; 2021 Peacock Blu</p>
         </div>
-          <div className="col-md-6 text-md-right">
-            <a href="#" class="text-dark">Terms of Use</a> 
-            <span className="text-muted mx-2">|</span> 
-            <a href="#" className="text-dark">Privacy Policy</a>
-            </div> 
         </div>
       </footer>
     </div>
- 
+    
  )
 }
 

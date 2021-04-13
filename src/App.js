@@ -23,7 +23,7 @@ Switch
   // import Contact from './components/Contact';
   // import Donate from './components/Donate';
   // import WhoWeAre from './components/WhoWeAre';
-  // import Circle from './components/Circle';
+  import Gallery from './components/Gallery';
 
   import Footer from './components/Footer';
 
@@ -41,6 +41,7 @@ function App() {
       <Router>
         {/* <Navbar /> */}
         <Switch>
+          <Gallery />
         {/* <ul className="main-nav">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/about">Staff</NavLink></li>
@@ -64,7 +65,6 @@ function App() {
           {/* <Bio /> */}
         {/* <Circle /> */}
         <Navbar /> 
-
         <Footer />
       </Router>
     
