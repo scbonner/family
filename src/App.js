@@ -23,9 +23,9 @@ Switch
   // import Contact from './components/Contact';
   // import Donate from './components/Donate';
   // import WhoWeAre from './components/WhoWeAre';
-  import Gallery from './components/Gallery';
+  // import Gallery from './components/Gallery';
 
-  import Footer from './components/Footer';
+  // import Footer from './components/Footer';
 
 
 
@@ -37,11 +37,11 @@ Switch
 function App() {
   return (
     <div>
-      <Logo />    
+         
       <Router>
         {/* <Navbar /> */}
         <Switch>
-          <Gallery />
+        
         {/* <ul className="main-nav">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/about">Staff</NavLink></li>
@@ -64,8 +64,9 @@ function App() {
         </Switch>
           {/* <Bio /> */}
         {/* <Circle /> */}
+        
         <Navbar /> 
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     
      
